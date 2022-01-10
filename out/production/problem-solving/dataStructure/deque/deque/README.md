@@ -25,4 +25,19 @@
 
 ---
 
+## 문제풀이
+
 시간복잡도: O(n) = 10000
+시간제한 : 0.5초
+
+이 문제는 시간 복잡도는 크지 않지만, 최대 1만 줄을 출력해야 하기에 System.out을 사용하면 시간제한을 초과할 위험이 있다. ArrayDeque 자료구조를 사용하여 문제를 풀 수 있다.
+
+1. ArrayDeque 자료구조 생성
+2. 반복문 생성
+3. switch - case문으로 분리
+4. push일 경우 st.nextToken()으로 자료 넣기 + count++ 해주기
+5. 나머지는 자료를 빼는 경우 count-- 해주며 StringBuilder 객체에 숫자 넣어주기
+6. 반복문이 끝나면 StringBuilder 한번에 출력
+
+
+![](./img/1.PNG)
