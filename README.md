@@ -4,8 +4,8 @@
 
 ## Data Structure
 
-- [Stack]()
-- [Queue]()
-- [Deque]()
+- [Stack](src/dataStructure/stack)
+- [Queue](src/dataStructure/queue)
+- [Deque](src/dataStructure/deque)
 
 ## Algorithm
