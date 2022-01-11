@@ -11,4 +11,4 @@ Deque
 
 ## 문제
 
-- [Deque](./deque)
+- [Deque](./deque) - Silver 4
