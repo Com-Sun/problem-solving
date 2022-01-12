@@ -8,3 +8,4 @@
 - [최소공배수](./lcm) - Silver 5
 - [소수 찾기](./prime_search) - Silver 4
 - [소수 구하기 (에라토스테네스의 체)](./prime_Eratosthenes) - Silver 2
+- [골드바흐의 추측](./goldbach) - Silver 1
