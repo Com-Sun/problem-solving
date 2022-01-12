@@ -9,3 +9,5 @@
 - [Deque](src/dataStructure/deque)
 
 ## Algorithm
+
+- [Math](src/algorithm/math)
