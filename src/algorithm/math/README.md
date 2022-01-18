@@ -5,6 +5,7 @@
 ## 문제
 
 - [팩토리얼](./factorial) - Bronze 3
+- [8진수 2진수](./진법변환2) - Bronze 3
 - [2진수 8진수](./진법변환) -Bronze 2
 - [최대공약수와 최소공배수](./gcd_lcm) - Silver 5
 - [최소공배수](./lcm) - Silver 5
