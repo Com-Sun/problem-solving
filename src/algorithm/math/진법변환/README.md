@@ -33,3 +33,54 @@
 시간이 거의 4배 가까이 줄어든것을 볼 수 있다.
 
 **주의**: BufferedWriter는 String만 사용할 수 있으므로 toString을 통해 형변환을 해주자.
+
+#### BufferedWriter 추가
+
+기존의 소스코드이다.
+
+    public class Main {
+    public static void main(String[] args) throws IOException {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        int n = s.length();
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        if (n % 3 == 1) {
+            bw.write(Integer.toString(s.charAt(0) - '0'));
+        } else if (n % 3 == 2) {
+            bw.write(Integer.toString((s.charAt(0) - '0') * 2 + (s.charAt(1) - '0')));
+        }
+        for (int i = n % 3; i < n; i += 3) {
+            bw.write(Integer.toString((s.charAt(i) - '0') * 4 + (s.charAt(i+1) - '0') * 2 + (s.charAt(i+2) - '0')));
+        }
+        bw.flush();
+        bw.close();
+    }
+}
+
+BufferedWriter 에서 int 하나만 사용할 경우 char의 아스키코드 형식으로 변환된다는것을 알았다.
+ 그래서 위와 같이 toString으로 변환했는데, 다음의 방법도 사용할 수 있다.
+
+다른 방법
+
+    public class MainTwo {
+    public static void main(String[] args) throws IOException {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        int n = s.length();
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        if (n % 3 == 1) {
+            bw.write((s.charAt(0) - '0')+"");
+        } else if (n % 3 == 2) {
+            bw.write((s.charAt(0) - '0') * 2 + (s.charAt(1) - '0')+"");
+        }
+        for (int i = n % 3; i < n; i += 3) {
+            bw.write((s.charAt(i) - '0') * 4 + (s.charAt(i+1) - '0') * 2 + (s.charAt(i+2) - '0')+"");
+        }
+        bw.flush();
+        bw.close();
+    }
+    }
+
+보다시피 끝에 +""를 추가하면 int형이 아닌 string형으로 바뀌면서 따로 변환하지 않아도 출력시 오류가 생기지 않는다. 다만, 이 경우 시간이 조금 더 오래걸린다.
+
+![](./img/3.PNG)
