@@ -16,4 +16,5 @@
 - [소수 구하기 (에라토스테네스의 체)](./prime_Eratosthenes) - Silver 2
 - [조합 0의 개수](./combination) - Silver 2
 - [숨바꼭질](./숨바꼭질) - Silver 2
+- [골드바흐 파티션](./goldbach_partition) - Silver 2
 - [골드바흐의 추측](./goldbach) - Silver 1
