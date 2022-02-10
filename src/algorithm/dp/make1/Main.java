@@ -1,4 +1,4 @@
-package algorithm.dynamicprogramming.make1;
+package algorithm.dp.make1;
 
 import java.util.Scanner;
 

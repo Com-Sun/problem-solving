@@ -14,4 +14,4 @@
 ## Algorithm
 
 - [Math](src/algorithm/math)
-- [Dynamic Programming](./src/algorithm/dynamicprogramming)
+- [Dynamic Programming](./src/algorithm/dp)
