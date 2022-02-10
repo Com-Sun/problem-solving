@@ -19,3 +19,4 @@ DP를 푸는 과정
 
 - [1로 만들기](./make1) - Silver 3
 - [1,2,3 더하기](./plus123) - Silver 3
+- [계단 오르기](./stairs) - Silver 3
