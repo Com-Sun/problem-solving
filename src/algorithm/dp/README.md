@@ -23,3 +23,4 @@ DP를 푸는 과정
 - [2*n 타일링](./tiling) - Silver 3
 - [구간 합 구하기 4](./sumsection) - Silver 3
 - [RGB거리](./rgbstreet) - Silver 1
+- [카드 구매하기](./buycard) - Silver 1
