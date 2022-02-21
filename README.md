@@ -4,6 +4,7 @@
 
 ## Background Knowledge
 - [complexity](./src/concept/complexity)
+- [implements](./src/concept/implements)
 
 ## Data Structure
 
