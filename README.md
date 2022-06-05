@@ -14,6 +14,7 @@
 
 ## Algorithm
 
+- [Sorting](src/algorithm/sorting)
 - [Math](src/algorithm/math)
 - [Dynamic Programming](./src/algorithm/dp)
 - [BFS](./src/algorithm/bfs)
