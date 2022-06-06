@@ -11,7 +11,7 @@ public class Main {
 
         System.out.println("---------------------");
 
-        Insertion.sort(arr);
+        Insertion2.sort(arr);
 
         for (int i : arr) {
             System.out.println("i = " + i);

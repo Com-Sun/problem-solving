@@ -7,7 +7,7 @@ public class Main {
             System.out.println("i = " + i);
         }
 
-        Bubble.sort(arr);
+        Bubble2.sort(arr);
 
         for (int i : arr) {
             System.out.println("i = " + i);
