@@ -10,7 +10,7 @@ public class Insertion2 {
             int target = arr[i];
             int j = i - 1;
 
-            while (j >=0 & target < arr[j]) {
+            while (j >=0 && target < arr[j]) {
                 arr[j+1] = arr[j];
                 j--;
             }

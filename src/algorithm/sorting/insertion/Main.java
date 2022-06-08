@@ -1,6 +1,6 @@
 package algorithm.sorting.insertion;
 
-import algorithm.sorting.selection.Selection;
+import algorithm.sorting.selection.Selection3;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Main {
 
         System.out.println("---------------------");
 
-        Insertion2.sort(arr);
+        Insertion3.sort(arr);
 
         for (int i : arr) {
             System.out.println("i = " + i);
