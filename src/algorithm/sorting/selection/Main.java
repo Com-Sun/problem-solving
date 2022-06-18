@@ -1,6 +1,6 @@
 package algorithm.sorting.selection;
 
-import algorithm.sorting.bubble.Bubble;
+import algorithm.sorting.insertion.Insertion4;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Main {
 
         System.out.println("---------------------");
 
-        Selection3.sort(arr);
+        Insertion4.sort(arr);
 
         for (int i : arr) {
             System.out.println("i = " + i);

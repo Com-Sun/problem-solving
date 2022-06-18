@@ -1,8 +1,9 @@
-package algorithm.sorting.insertion;
+package algorithm.sorting.shell;
 
-import algorithm.sorting.selection.Selection3;
+import algorithm.sorting.insertion.Insertion4;
 
 public class Main {
+
     public static void main(String[] args) {
         int[] arr = {1, 23, 346, 6, 2, 4234, 52346, 6275, 3, 5, 4462, 75, 24, 875, 7, 863};
         for (int i : arr) {
@@ -11,7 +12,7 @@ public class Main {
 
         System.out.println("---------------------");
 
-        Insertion5.sort(arr);
+        Shell.sort(arr);
 
         for (int i : arr) {
             System.out.println("i = " + i);

@@ -6,3 +6,5 @@
 
 - [버블 정렬](./bubble)
 - [선택 정렬](./selection)
+- [삽입 정렬](./insertion)
+  - [쉘 정렬](./shell)
