@@ -14,7 +14,7 @@ public class Main {
         System.out.println();
         System.out.println("---------------------");
 
-        Selection3.sort(arr);
+        Selection4.sort(arr);
 
         for (int i : arr) {
             System.out.print(i + " ");
