@@ -1,4 +1,4 @@
-package algorithm.sorting.shell.sortingNum2;
+package algorithm.sorting.shell.sortingnum2;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
