@@ -14,7 +14,7 @@ public class Main {
         System.out.println();
         System.out.println("---------------------");
 
-        Insertion10.sort(arr);
+        Insertion11.sort(arr);
 
         for (int i : arr) {
             System.out.print(i + " ");
