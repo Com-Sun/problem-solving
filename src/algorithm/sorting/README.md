@@ -4,6 +4,10 @@
 
 ## 분류
 
+### 프로그래머스 고득점 kit
+- [k번째수](./programmers/k_number)
+
+### BaekJoon
 - [버블 정렬](./bubble)
 - [선택 정렬](./selection)
 - [삽입 정렬](./insertion)
