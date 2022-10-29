@@ -7,9 +7,11 @@
 ### 프로그래머스 고득점 kit
 - [k번째수](./programmers/k_number)
 - [가장 큰 수](./programmers/largest_num)
+- [H 인덱스](./programmers/h_index)
 
 ### BaekJoon
 - [버블 정렬](./bubble)
 - [선택 정렬](./selection)
 - [삽입 정렬](./insertion)
   - [쉘 정렬](./shell)
+- [일곱 난쟁이]
