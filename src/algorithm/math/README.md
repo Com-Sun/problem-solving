@@ -4,6 +4,7 @@
 
 ## 문제
 
+- [홀수](./odd) - Bronze 3
 - [팩토리얼](./factorial) - Bronze 3
 - [8진수 2진수](./진법변환2) - Bronze 3
 - [2진수 8진수](./진법변환) -Bronze 2

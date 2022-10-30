@@ -14,4 +14,4 @@
 - [선택 정렬](./selection)
 - [삽입 정렬](./insertion)
   - [쉘 정렬](./shell)
-- [일곱 난쟁이]
+- [일곱 난쟁이](./seven_dwarfs) - Bronze1
